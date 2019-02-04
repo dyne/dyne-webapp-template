@@ -1,7 +1,7 @@
 (ns {{name}}.session
   (:refer-clojure :exclude [get])
   (:require
-   [{{name}}.config :as conf]
+   [auxiliary.config :as conf]
    [taoensso.timbre :as log]
    [failjure.core :as f]
    [just-auth.core :as auth]

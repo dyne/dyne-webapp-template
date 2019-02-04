@@ -21,7 +21,7 @@
             [cheshire.core :as json]
             [clojure.data.csv :as csv]
             [yaml.core :as yaml]
-            [{{name}}.config :as conf]
+            [auxiliary.config :as conf]
             [taoensso.timbre :as log]
             [failjure.core :as f]
             [{{name}}.ring :as ring]

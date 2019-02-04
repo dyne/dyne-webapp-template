@@ -24,7 +24,6 @@
              ["{{sanitized}}.yaml" (render "dyne_webapp_config.yaml" data)]
              (srcres "handler" data)
              (srcres "ring" data)
-             (srcres "config" data)
              (srcres "webpage" data)
              (srcres "session" data)
              (rawres "js/bootstrap.min.js")

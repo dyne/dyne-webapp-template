@@ -19,13 +19,12 @@
 (ns {{name}}.ring
   (:require
    [clojure.java.io :as io]
-   [{{name}}.config :as conf]
    [taoensso.timbre :as log]
    [failjure.core :as f]
    [clj-storage.db.mongo :refer [get-mongo-db create-mongo-store]]
    [just-auth.core :as auth]
    [just-auth.db.just-auth :as auth-db]
-
+   [auxiliary.config :as conf]
    [auxiliary.translation :as trans]
    [compojure.core :refer :all]
    [compojure.handler :refer :all]

@@ -36,7 +36,7 @@
      [just-auth.core :as auth]
 
      [{{name}}.session :as s]
-     [{{name}}.config :as conf]
+     [auxiliary.config :as conf]
      [{{name}}.webpage :as web]
      [{{name}}.ring :as ring])
     (:import java.io.File)
