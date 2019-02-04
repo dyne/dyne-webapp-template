@@ -18,7 +18,7 @@
 
 (ns {{name}}.webpage
   (:require [clojure.java.io :as io]
-            [clojure.data.json :as json]
+            [cheshire.core :as json]
             [clojure.data.csv :as csv]
             [yaml.core :as yaml]
             [{{name}}.config :as conf]

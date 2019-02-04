@@ -20,7 +20,7 @@
     (:require
      [clojure.string :as str]
      [clojure.java.io :as io]
-     [clojure.data.json :as json]
+     [cheshire.core :as json]
      [compojure.core :refer :all]
      [compojure.handler :refer :all]
      [compojure.route :as route]
