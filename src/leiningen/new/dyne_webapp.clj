@@ -26,6 +26,7 @@
      (main/info "Generating fresh 'lein new' dyne-webapp project.")
      (->files data
               ["project.clj" (render "project.clj" data)]
+              ["README.md" (render "README.md" data)]
               ["{{sanitized}}.yaml" (render "dyne_webapp_config.yaml" data)]
               (srcres "handler" data)
               (srcres "ring" data)

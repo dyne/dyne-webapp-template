@@ -1,4 +1,4 @@
-;; {{description}}
+;; {{name}} - {{description}}
 
 ;; Copyright (C) {{year}}- Dyne.org foundation
 
