@@ -6,11 +6,11 @@ project.clj).
 
 ## Usage
 
-lein new dyne-webapp myapp
+lein new dyne-webapp <project> <year> <description>
 
 ## License
 
-Copyright © 2018 Dyne.org
+Copyright © 2018- Dyne.org
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
